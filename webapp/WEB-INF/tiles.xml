@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+    <definition name="base.definition"  
+        template="/WEB-INF/jsp/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
+    </definition>  
+    <definition name="welcome" extends="base.definition">  
+        <put-attribute name="title" value="Welcome " />  
+        <put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />  
+    </definition>  
+  
+  <definition name="teacherview" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to teacherview page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/teacherview.jsp" />  
+    </definition>
+    <definition name="teachereditform" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to teachereditform page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/teachereditform.jsp" />  
+    </definition>
+  
+  <definition name="studentview" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to studentview page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/studentview.jsp" />  
+    </definition>
+   <definition name="studentform" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to studentform page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/studentform.jsp" />  
+    </definition>
+    <definition name="registrationform" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to registrationform page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/registrationform.jsp" />  
+    </definition>
+    <definition name="teacherLoginForm" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to teacherLoginForm" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/teacherLoginForm.jsp" />  
+    </definition>
+    <definition name="editStudentForm" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to editStudentForm page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/editStudentForm.jsp" />  
+    </definition>
+    <definition name="teacherFrontPage" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to teacherIndex page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/teacherFrontPage.jsp" />  
+    </definition>
+    <definition name="studentFrontPage" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to StudentIndex page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/studentFrontPage.jsp" />  
+    </definition>
+     <definition name="studentLoginForm" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to StudentLoginForm page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/studentLoginForm.jsp" />  
+    </definition>
+    <definition name="studentViewPages" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to StudentViewPages" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/studentViewPages.jsp" />  
+    </definition>
+    <definition name="studentmarksform" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to studentmarksform" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/studentmarksform.jsp" />  
+    </definition>
+     <definition name="studentmarksdetails" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to studentmarksdetails" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/studentmarksdetails.jsp" />  
+    </definition>
+    <definition name="commonloginpage" extends="base.definition">  
+        <put-attribute name="title" value="Welcome to commonloginpage" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/commonloginpage.jsp" />  
+    </definition>
+</tiles-definitions>  
